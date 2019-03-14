@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun sprawdzRownosc(a: Int, b: Int) = if (a == b) {
-        Toast.makeText(this, "Brawo! Odgadles wylosowana liczbe.", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Brawo! Odgadleś wylosowana liczbe.", Toast.LENGTH_SHORT).show()
         findViewById<ConstraintLayout>(R.id.Back).setBackgroundColor(Color.GREEN)
         findViewById<TextView>(R.id.textView).text="Koniec!"
         var button1 = findViewById<Button>(R.id.button1) as Button
